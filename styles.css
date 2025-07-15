@@ -540,6 +540,33 @@ body {
   margin: 0;
 }
 
+.mission-vision {
+  margin-bottom: 2.5rem;
+}
+
+.mission-vision .mission,
+.mission-vision .vision {
+  background: linear-gradient(135deg, #f8f9ff 0%, #e8f0fe 100%);
+  padding: 1.5rem;
+  border-radius: 15px;
+  margin-bottom: 1.5rem;
+  border-left: 4px solid #667eea;
+}
+
+.mission-vision h4 {
+  color: #667eea;
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+}
+
+.mission-vision p {
+  color: #555;
+  margin: 0;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
 .about-buttons {
   display: flex;
   gap: 1rem;
